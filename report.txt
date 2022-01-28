@@ -1,0 +1,53 @@
+info -      Report of Control Condition for Relevant Controllers
+info - -------------------------------------------------------------------------------------
+info - Control conditions for all controllers of interest are fulfilled.
+info - Element '   Gen1' is local reference in separated area of '   B1'
+info - Element '   Gen1' is reference in 60.0 Hz-system
+info - (t=-100:000 ms) Initial conditions calculated.
+evt  - (t=01:000 s) Grid\Line3.ElmLne:
+       Short-circuit with Fault Impedance Rf = 0.000001 Ohm Xf = 0.000000 Ohm
+       Fault Location: 50.0000 % from 'Grid\B4.ElmTerm'
+evt  - (t=01:101 s) Grid\B4\Cub_1\Line3 Overcurrent Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=01:101 s) Grid\B4\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=01:101 s) Element '   Gen1' is local reference in separated area of '   B1'
+info - (t=01:101 s) Element '   Gen1' is reference in 60.0 Hz-system
+evt  - (t=01:731 s) -------------------------------------------------------------
+evt  - (t=01:731 s) 'Grid\Gen3.ElmSym':
+evt  - (t=01:731 s) Generator out of step (pole slip).
+evt  - (t=02:000 s) Grid\B5\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=02:000 s) Element '   Gen1' is local reference in separated area of '   B1'
+info - (t=02:000 s) Element '   Gen1' is reference in 60.0 Hz-system
+evt  - (t=02:852 s) Grid\B1\Cub_2\Gen1 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:852 s) Grid\B2\Cub_4\Load2 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:852 s) Grid\B3\Cub_2\Load3 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:852 s) Grid\B3\Cub_7\Gen3 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:852 s) Grid\B2\Cub_4\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+evt  - (t=02:852 s) Grid\B1\Cub_2\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+evt  - (t=02:852 s) Grid\B3\Cub_2\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+evt  - (t=02:852 s) Grid\B3\Cub_7\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+warn - (t=02:852 s)    1 area(s) are unsupplied.
+info - (t=02:852 s) Grid split into 3 isolated areas
+evt  - (t=13:665 s) Grid\B1\Cub_2\Gen1 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=13:665 s) Grid\B2\Cub_4\Load2 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=13:665 s) Grid\B3\Cub_2\Load3 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=13:665 s) Grid\B3\Cub_7\Gen3 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=13:665 s) Control Switch Event 'Switch Event(5)' not possible. Breaker already opened.
+evt  - (t=13:665 s) Control Switch Event 'Switch Event(6)' not possible. Breaker already opened.
+evt  - (t=13:665 s) Control Switch Event 'Switch Event(8)' not possible. Breaker already opened.
+evt  - (t=13:665 s) Control Switch Event 'Switch Event(7)' not possible. Breaker already opened.
+info - (t=20:000 s) Simulation successfully executed.
