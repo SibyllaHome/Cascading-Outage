@@ -1,0 +1,156 @@
+info - The calculation results have been deleted by the user.
+info - Python Script 'Add Controller and Relay' started
+info - Element 'G 02' is local reference in separated area of 'Bus 31'
+info - Calculating load flow...
+info - -------------------------------------------------------------------------------------
+info - Start Newton-Raphson Algorithm...
+info - Load flow iteration: 0
+info - Load flow iteration: 1
+info - Load flow iteration: 2
+info - Load flow iteration: 3
+info - Load flow iteration: 4
+info - Newton-Raphson converged with 4 iterations.
+info - Load flow calculation successful.
+info - -------------------------------------------------------------------------------------
+info -      Report of Control Condition for Relevant Controllers
+info - -------------------------------------------------------------------------------------
+info - Control conditions for all controllers of interest are fulfilled.
+info - Element 'G 02' is local reference in separated area of 'Bus 31'
+info - Element 'G 02' is reference in 60.0 Hz-system
+info - (t=-100:000 ms) Initial conditions calculated.
+evt  - (t=100:000 ms) Grid\Bus 16.ElmTerm:
+       Short-circuit with Fault Impedance Rf = 0.000000 Ohm Xf = 1.190250 Ohm
+evt  - (t=209:407 ms) Grid\Bus 16\Cub_7\Line 16 - 17 OCLT.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=209:407 ms) Grid\Bus 17\Cub_5\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+evt  - (t=209:407 ms) Grid\Bus 16\Cub_7\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=209:407 ms) Element 'G 02' is local reference in separated area of 'Bus 31'
+info - (t=209:407 ms) Element 'G 02' is reference in 60.0 Hz-system
+evt  - (t=280:000 ms) Grid\Bus 16.ElmTerm:
+       Clear Short-Circuit. 
+evt  - (t=642:963 ms) Grid\Bus 15\Cub_4\Line 15 - 16 OCLT.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=642:963 ms) Grid\Bus 15\Cub_4\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+evt  - (t=642:963 ms) Grid\Bus 16\Cub_8\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=642:963 ms) Element 'G 02' is local reference in separated area of 'Bus 31'
+info - (t=642:963 ms) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=642:963 ms) Grid split into 2 isolated areas
+info - (t=642:963 ms) Element 'G 02' is reference in 60.0 Hz-system
+evt  - (t=01:692 s) -------------------------------------------------------------
+evt  - (t=01:692 s) 'Grid\G 09.ElmSym':
+evt  - (t=01:692 s) Generator out of step (pole slip).
+evt  - (t=01:702 s) -------------------------------------------------------------
+evt  - (t=01:702 s) 'Grid\G 08.ElmSym':
+evt  - (t=01:702 s) Generator out of step (pole slip).
+evt  - (t=01:702 s) -------------------------------------------------------------
+evt  - (t=01:702 s) 'Grid\G 10.ElmSym':
+evt  - (t=01:702 s) Generator out of step (pole slip).
+evt  - (t=01:730 s) -------------------------------------------------------------
+evt  - (t=01:730 s) 'Grid\G 01.ElmSym':
+evt  - (t=01:730 s) Generator out of step (pole slip).
+evt  - (t=02:104 s) Grid\Bus 31\Cub_1\G 02 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:104 s) Grid\Bus 31\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=02:104 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=02:104 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=02:104 s) Grid split into 3 isolated areas
+info - (t=02:104 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=02:249 s) Grid\Bus 32\Cub_1\G 03 UFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:249 s) Grid\Bus 32\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=02:249 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=02:249 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=02:249 s) Grid split into 4 isolated areas
+info - (t=02:249 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=02:386 s) Grid\Bus 32\Cub_1\G 03 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=02:386 s) Control Switch Event 'Switch Event(6)' not possible. Breaker already opened.
+evt  - (t=03:616 s) Grid\Bus 39\Cub_2\Load 39 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:616 s) Grid\Bus 39\Cub_2\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:616 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:616 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:616 s) Grid split into 4 isolated areas
+info - (t=03:616 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:702 s) Grid\Bus 08\Cub_1\Load 08 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:702 s) Grid\Bus 08\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:702 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:702 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:702 s) Grid split into 4 isolated areas
+info - (t=03:702 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:737 s) Grid\Bus 04\Cub_1\Load 04 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:737 s) Grid\Bus 04\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:737 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:737 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:737 s) Grid split into 4 isolated areas
+info - (t=03:737 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:766 s) Grid\Bus 27\Cub_1\Load 27 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:766 s) Grid\Bus 27\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:766 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:766 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:766 s) Grid split into 4 isolated areas
+info - (t=03:766 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:766 s) Grid\Bus 25\Cub_1\Load 25 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:766 s) Grid\Bus 25\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:766 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:766 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:766 s) Grid split into 4 isolated areas
+info - (t=03:766 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:793 s) Grid\Bus 29\Cub_1\Load 29 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:793 s) Grid\Bus 29\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:793 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:793 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:793 s) Grid split into 4 isolated areas
+info - (t=03:793 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:826 s) Grid\Bus 26\Cub_1\Load 26 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:826 s) Grid\Bus 26\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:826 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:826 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:826 s) Grid split into 4 isolated areas
+info - (t=03:826 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=03:853 s) Grid\Bus 28\Cub_1\Load 28 UFLS Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=03:853 s) Grid\Bus 28\Cub_1\Switch.StaSwitch:
+       Circuit-Breaker Action: 'Open' - 'All phases'.
+info - (t=03:853 s) Element 'G 01' is local reference in separated area of 'Bus 39'
+info - (t=03:853 s) Element 'G 04' is local reference in separated area of 'Bus 33'
+info - (t=03:853 s) Grid split into 4 isolated areas
+info - (t=03:853 s) Element 'G 01' is reference in 60.0 Hz-system
+evt  - (t=06:124 s) Grid\Bus 31\Cub_1\G 02 OFGT Relay.ElmRelay:
+       Relay is tripping. 'Open' signal is sent to the connected breaker(s).
+evt  - (t=06:124 s) Control Switch Event 'Switch Event(15)' not possible. Breaker already opened.
+info - (t=10:000 s) Simulation successfully executed.
+info - Element 'G 02' is local reference in separated area of 'Bus 31'
+info - Calculating load flow...
+info - -------------------------------------------------------------------------------------
+info - Start Newton-Raphson Algorithm...
+info - Load flow iteration: 0
+info - Load flow iteration: 1
+info - Load flow iteration: 2
+info - Load flow iteration: 3
+info - Load flow iteration: 4
+info - Newton-Raphson converged with 4 iterations.
+info - Load flow calculation successful.
+info - -------------------------------------------------------------------------------------
+info -      Report of Control Condition for Relevant Controllers
+info - -------------------------------------------------------------------------------------
+info - Control conditions for all controllers of interest are fulfilled.
